@@ -1,0 +1,124 @@
+.mock {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+    overflow-y:auto;
+}
+
+.title {
+    display: block;
+    height: 50px;
+    background-color: rgb(3, 150, 40);
+    width: 100%;
+    top:0; left:0;
+    position: relative;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    margin-left: calc(50% - 200px);
+    border:1px solid black;
+    margin-top: 1rem;
+    border-radius: 4px;
+    background-color: white;
+}
+
+@media (max-width: 600px) {
+    .container {
+        position: relative;
+        width: 90vw;
+        margin-left: 5vw;
+        border:1px solid black;
+        margin-top: 1rem;
+        border-radius: 4px;
+        background-color: white;
+    }
+}
+
+.container span:not(:first-child), .container div {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.container label {
+    font-weight: bold;
+}
+
+.container input, .container textarea {
+    padding-left:0.5rem;
+}
+
+.container textarea {
+    min-height: 50px;
+}
+
+.container input, .container textarea, .container label {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.container input {
+    height: 30px;
+    border-radius: 4px;
+}
+
+.cancel {
+    float: left;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    background-color: #999;
+}
+
+.delete {
+    background-color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #333;
+}
+
+.confrimButton {
+    float: right;
+    background-color: rgb(3, 150, 40);
+    border: 1px solid rgb(3, 150, 40);
+    color: white;
+    cursor: pointer;
+}
+
+.confrimButton:hover {
+    background-color: rgb(40, 136, 31);
+}
+
+.buttons button {
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+}
+
+.buttons {
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}

@@ -1,0 +1,120 @@
+.productContainer {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+@media (max-width:600px) {
+    .productContainer {
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+}
+
+.title {
+    width:100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.title > span:first-child {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    float: left;
+}
+
+.title > button {
+    float:right;
+    padding: 0.5rem;
+    border:1px solid rgb(3, 150, 40);
+    background-color: rgb(3, 150, 40);
+    color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.title > button:hover{
+    background-color: rgb(40, 136, 31);
+}
+
+.emptyAlert > p{
+    display: block;
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.table {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 1rem; 
+}
+
+.table thead {
+    text-align: center;
+}
+
+.table thead td {
+    border: 2px dashed #aaa;
+    font-weight: bold;
+}
+
+.table td {
+    border: 1px dashed #ccc;
+    padding: 0.5rem 0;
+    min-width: 3rem;
+    font-size: 0.9rem;
+}
+
+.table {
+    padding-bottom: 5rem;
+}
+
+.tdCenter {
+    text-align: center;
+}
+
+.updateButton{
+    width: 3rem;
+    height: 40px;
+    padding: 0 !important;
+    border: 0px !important;
+}
+
+.updateButton > button {
+    width:100%;
+    height: 100%;
+    border:1px solid #111;
+    background-color: #111;
+    color:white;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.updateButton > button:hover {
+    background-color: #333;
+}
+
+
+.paginateContainer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 8rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .paginateContainer {
+        padding:0 1rem;
+    }
+}

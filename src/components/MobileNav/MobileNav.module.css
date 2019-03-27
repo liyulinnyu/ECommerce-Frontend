@@ -1,0 +1,48 @@
+.navContainer {
+    background-color: black;
+    
+}
+
+.navContainer ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 5rem);
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navContainer li {
+    float: right;
+    background-color: black;
+}
+
+.navContainer ul a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 4.5rem;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.3s all ease-out;
+    border-radius: 4px;
+}
+
+.logoutButton {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 0px;
+    display: inline-block;
+    height: 40px;
+    width: 4.5rem;
+    transition: 0.3s all ease-out;
+    border-radius: 4px;
+}

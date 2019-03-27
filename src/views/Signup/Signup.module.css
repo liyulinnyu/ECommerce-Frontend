@@ -1,0 +1,57 @@
+.signupContainer {
+    position: relative;
+    top:0; left:0;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.signupForm {
+    position: relative;
+    top: 2rem;
+    height:200px;
+    width: 20rem;
+}
+
+.signupForm label, .signupForm input {
+    width: 100%;
+    display: block;
+}
+
+.signupForm input {
+    margin-bottom: 1rem;
+    height: 2rem;
+    padding-left:1rem;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #666;
+}
+
+.signupForm label {
+    margin-bottom:  0.5rem;
+}
+
+.signupForm button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 2rem;
+}
+
+.radioDiv {
+    position: relative;
+    width:100%;
+}
+
+.radioDiv > label, .radioDiv > input {
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.radioDiv > input {
+    height: 1rem;
+    margin-top: 1rem;
+}
